@@ -273,6 +273,6 @@ Devise.setup do |config|
   # config.omniauth_path_prefix = '/my_engine/users/auth'
 
   # OmniAuth Facebook provider 
-  config.omniauth :facebook, "1672674349714100", "f38480ec13d15b4a6099adf5f0fc917c",  callback_url: "https://pixelfast-pinteresting.herokuapp.com/users/auth/facebook/callback"
+  config.omniauth :facebook, "1672674349714100", "f38480ec13d15b4a6099adf5f0fc917c" #,  callback_url: "http://localhost:3000/users/auth/facebook/callback"
 
 end
