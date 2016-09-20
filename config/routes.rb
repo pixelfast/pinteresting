@@ -4,11 +4,6 @@ Rails.application.routes.draw do
   root "pages#home" #creates root_path
   get "about" => "pages#about" # creates about_path
 
-  # config/routes.rb
-   devise_scope :user do
-     delete 'sign_out', :to => 'devise/sessions#destroy', :as => :destroy_user_session
-   end
-
   # The priority is
    #based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
